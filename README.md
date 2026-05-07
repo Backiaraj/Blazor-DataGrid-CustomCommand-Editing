@@ -1,34 +1,44 @@
-# Blazor Server DataGrid - CustomCommand Editing
+# Blazor Server DataGrid — Custom Command Editing
 
-This sample explains about how to perform the editing actions using custom command button in Blazor DataGrid.
+This sample explains about how to perform edit actions using command buttons in the Syncfusion [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid). It demonstrates inline CRUD with customized command buttons, paging, and basic data binding.
 
 ## Features
 
-* Fast rendering with virtualization and row/column virtualization
-* Sorting, filtering, grouping, and searching capabilities
-* Inline, batch, and dialog editing modes
-* Template columns, column resizing, reordering, and freezing
-* Excel and PDF export (requires additional Syncfusion export packages)
+- **Inline editing with command buttons**: Edit, Delete, Save, Cancel
+- Customized buttons via `CommandButtonOptions` (icons and styles)
+- Single-click edit (double‑click disabled) for explicit actions
+- Simple in-memory data source with paging
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
-* .NET SDK 8.0 or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [.NET SDK 7.0](https://dotnet.microsoft.com/download/dotnet/7.0) or later
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/Blazor-DataGrid-CustomCommand-Editing.git
+cd Blazor-DataGrid-CustomCommand-Editing
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
